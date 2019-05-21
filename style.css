@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: bisque;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.left {
+    float: left;
+    width: 300px;
+    height: 80vh;
+    background-color: cadetblue;
+}
+
+.right {
+    float: right;
+    width: calc(100% - 300px);
+    background-color: blueviolet;
+    height: 80vh;
+}
+
+.footer4 {
+    float: bottom;
+    background-color: orange;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+}
+
+.footer1, .footer2, .footer3 {
+
+}
+.footer1{
+    background-color: blue;
+}
+.footer2{
+    background-color: lavenderblush;
+}
+.footer3{
+    background-color: gray;
+}
